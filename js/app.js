@@ -125,11 +125,13 @@ function mostrarDatos(datos)
         genero = "Femenino";
     else
         genero = "Otro";
-    listaUsuarios.innerHTML += `<br> Datos Ingresados:`;
-    listaUsuarios.innerHTML += `<br> Id: ${datos[0]}`;
-    listaUsuarios.innerHTML += `<br> Nombre: ${datos[1]}`;
-    listaUsuarios.innerHTML += `<br> Apellido: ${datos[2]}`;
-    listaUsuarios.innerHTML += `<br> Genero: ${genero} <br>`;
+    listaUsuarios.innerHTML += `<br>Registro exitoso: ${datos[1]} ${datos[2]}, (ID: ${datos[0]}) - Género: ${genero}<br>`;
+    //en lista
+    // listaUsuarios.innerHTML += `<br> Datos Ingresados:`;
+    // listaUsuarios.innerHTML += `<br> Id: ${datos[0]}`;
+    // listaUsuarios.innerHTML += `<br> Nombre: ${datos[1]}`;
+    // listaUsuarios.innerHTML += `<br> Apellido: ${datos[2]}`;
+    // listaUsuarios.innerHTML += `<br> Genero: ${genero} <br>`;
     //listaUsuarios.innerHTML += `<br><br> ${datos}`;
     console.log(datos);
 }
