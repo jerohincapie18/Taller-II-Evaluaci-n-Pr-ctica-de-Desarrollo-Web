@@ -1,0 +1,46 @@
+/* FALLA: El selector de clase no existe en el HTML o debe ser ID */
+.main-container
+{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    padding-top: 50px;
+    margin: auto;
+    width: 250px;
+    font-size: 20px;
+    background: #ccc;
+    font-family: sans-serif;
+    
+}
+
+.formulario-registro
+{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+/* FALLA: Sintaxis incorrecta */
+
+.input-group input, select
+{
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+#btn-registrar
+{
+    margin-top: 20px;
+    background-color: green;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#lista-usuarios
+{
+    display: flex;
+    flex-direction: column;
+}
